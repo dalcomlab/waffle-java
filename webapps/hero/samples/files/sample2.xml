@@ -1,0 +1,932 @@
+﻿<?xml version="1.0" encoding="utf-8" ?><document type="" version="1.0"><global>
+<connections>
+<connection connection-type="xml" name="Connection 1">
+<config-param-list>
+<config-param name="xml-path"><![CDATA[http://localhost:8080/hero/samples/files/sample2.data.xml]]></config-param>
+<config-param name="xsl-path"><![CDATA[]]></config-param>
+</config-param-list>
+<dataset dataset-type="xml" name="DataSet 1"><config-param-list>
+<config-param name="xml-root"><![CDATA[dataset/list/detail]]></config-param>
+</config-param-list>
+<fields>
+<field-set field-type="database">
+<field name="방문희망영업점" xpath="../../방문희망영업점"/>
+<field name="SHOW_CERT" xpath="../../SHOW_CERT"/>
+<field name="STEP10" xpath="../../STEP10"/>
+<field name="발급구분" xpath="../../발급구분"/>
+<field name="STEP11" xpath="../../STEP11"/>
+<field name="STEP12" xpath="../../STEP12"/>
+<field name="자택주소" xpath="../../자택주소"/>
+<field name="SHOW_6" xpath="../../SHOW_6"/>
+<field name="직장명" xpath="../../직장명"/>
+<field name="E-mail주소" xpath="../../E-mail주소"/>
+<field name="SHOW_10" xpath="../../SHOW_10"/>
+<field name="월소득" xpath="../../월소득"/>
+<field name="가족카드수령지" xpath="../../가족카드수령지"/>
+<field name="SHOW_7" xpath="../../SHOW_7"/>
+<field name="희망한도" xpath="../../희망한도"/>
+<field name="자택전화번호" xpath="../../자택전화번호"/>
+<field name="직업" xpath="../../직업"/>
+<field name="부서명" xpath="../../부서명"/>
+<field name="페이플랜결제방식" xpath="../../페이플랜결제방식"/>
+<field name="핸드폰번호" xpath="../../핸드폰번호"/>
+<field name="신분증종류" xpath="../../신분증종류"/>
+<field name="직장주소" xpath="../../직장주소"/>
+<field name="문자알림서비스" xpath="../../문자알림서비스"/>
+<field name="신분증번호" xpath="../../신분증번호"/>
+<field name="인증서소유여부" xpath="../../인증서소유여부"/>
+<field name="명세서수령지" xpath="../../명세서수령지"/>
+<field name="명세서수령방법" xpath="../../명세서수령방법"/>
+<field name="직장전화번호" xpath="../../직장전화번호"/>
+<field name="신분증발행일자" xpath="../../신분증발행일자"/>
+<field name="CGV지점" xpath="../../CGV지점"/>
+<field name="신분증발행기관" xpath="../../신분증발행기관"/>
+<field name="결제기관" xpath="../../결제기관"/>
+<field name="SHOW_1" xpath="../../SHOW_1"/>
+<field name="SHOW_9" xpath="../../SHOW_9"/>
+<field name="결제계좌번호" xpath="../../결제계좌번호"/>
+<field name="SHOW_2" xpath="../../SHOW_2"/>
+<field name="현금카드기능신청" xpath="../../현금카드기능신청"/>
+<field name="SHOW_8" xpath="../../SHOW_8"/>
+<field name="결제일" xpath="../../결제일"/>
+<field name="SHOW_3" xpath="../../SHOW_3"/>
+<field name="SHOW_4" xpath="../../SHOW_4"/>
+<field name="SHOW_5" xpath="../../SHOW_5"/>
+<field name="카드수령지" xpath="../../카드수령지"/>
+<field name="STEP1" xpath="../../STEP1"/>
+<field name="STEP2" xpath="../../STEP2"/>
+<field name="STEP3" xpath="../../STEP3"/>
+<field name="신용정보관리서비스" xpath="../../신용정보관리서비스"/>
+<field name="발급대상" xpath="../../발급대상"/>
+<field name="기념일정보" xpath="../../기념일정보"/>
+<field name="STEP4" xpath="../../STEP4"/>
+<field name="STEP5" xpath="../../STEP5"/>
+<field name="맞춤서비스" xpath="../../맞춤서비스"/>
+<field name="STEP6" xpath="../../STEP6"/>
+<field name="STEP7" xpath="../../STEP7"/>
+<field name="STEP8" xpath="../../STEP8"/>
+<field name="STEP9" xpath="../../STEP9"/>
+<field name="이용내역서발송" xpath="../../이용내역서발송"/>
+<field name="성명" xpath="성명"/>
+<field name="영문성명" xpath="영문성명"/>
+<field name="주민등록번호" xpath="주민등록번호"/>
+<field name="mx_internal_uid" xpath="mx_internal_uid"/>
+<field name="카드구분" xpath="카드구분"/>
+<field name="카드종류" xpath="카드종류"/>
+<field name="구분" xpath="구분"/>
+<field name="SHOW_11" xpath="../../SHOW_11"/>
+<field name="듀얼페이먼트신청구분" xpath="../../듀얼페이먼트신청구분"/>
+<field name="듀얼페이먼트결제방식" xpath="../../듀얼페이먼트결제방식"/>
+<field name="듀얼페이먼트제한금액" xpath="../../듀얼페이먼트제한금액"/>
+<field name="SHOW_12" xpath="../../SHOW_12"/>
+<field name="STEP13" xpath="../../STEP13"/>
+<field name="STEP14" xpath="../../STEP14"/>
+<field name="STEP15" xpath="../../STEP15"/>
+<field name="STEP16" xpath="../../STEP16"/>
+<field name="SHOW_13" xpath="../../SHOW_13"/>
+<field name="가족연락처" xpath="../../가족연락처"/>
+<field name="플레이어신청여부" xpath="../../플레이어신청여부"/>
+<field name="플레이어타입" xpath="../../플레이어타입"/>
+<field name="세이브서비스신청" xpath="../../세이브서비스신청"/>
+<field name="SHOW_14" xpath="../../SHOW_14"/>
+<field name="SHOW_15" xpath="../../SHOW_15"/>
+<field name="금융포인트신청" xpath="../../금융포인트신청"/>
+<field name="금융포인트타입" xpath="../../금융포인트타입"/>
+<field name="금융포인트계좌번호" xpath="../../금융포인트계좌번호"/>
+<field name="금융포인트계좌명" xpath="../../금융포인트계좌명"/>
+<field name="SHOW_4_1" xpath="../../SHOW_4_1"/>
+<field name="맞춤서비스타이틀" xpath="../../맞춤서비스타이틀"/>
+<field name="STEP17" xpath="../../STEP17"/>
+<field name="STEP18" xpath="../../STEP18"/>
+<field name="staffnumber" xpath="../../staffnumber"/>
+<field name="체크출금결제계좌번호" xpath="../../체크출금결제계좌번호"/>
+<field name="aptServiceValue" xpath="../../aptServiceValue"/>
+<field name="sDetailAddr" xpath="../../sDetailAddr"/>
+<field name="sAptNm" xpath="../../sAptNm"/>
+<field name="sDongHoNm" xpath="../../sDongHoNm"/>
+<field name="isAPTCardYn" xpath="../../isAPTCardYn"/>
+<field name="usimType" xpath="../../usimType"/>
+<field name="GoodPlanService" xpath="../../GoodPlanService"/>
+<field name="GoodPlanAcct" xpath="../../GoodPlanAcct"/>
+<field name="GoodPlanServiceNM" xpath="../../GoodPlanServiceNM"/>
+</field-set>
+</fields>
+</dataset> 
+</connection>
+</connections>
+<styles>
+<style family="visible" name="visible0" visible="1" />
+<style family="visible" name="visible1" visible="0" />
+<style family="border" name="border0" border-right-color="rgb(0,0,0)" border-right-style="solid" border-right-width="75" border-left-color="rgb(0,0,0)" border-left-style="solid" border-left-width="75" border-top-color="rgb(0,0,0)" border-top-style="solid" border-top-width="75" border-bottom-color="rgb(0,0,0)" border-bottom-style="solid" border-bottom-width="75"  />
+<style family="border" name="border1" border-right-color="rgb(0,0,0)" border-right-style="none" border-right-width="75" border-left-color="rgb(0,0,0)" border-left-style="none" border-left-width="75" border-top-color="rgb(0,0,0)" border-top-style="none" border-top-width="75" border-bottom-color="rgb(0,0,0)" border-bottom-style="none" border-bottom-width="75"  />
+<style family="border" name="border2" border-right-color="rgb(182,221,238)" border-right-style="solid" border-right-width="75" border-left-color="rgb(182,221,238)" border-left-style="solid" border-left-width="75" border-top-color="rgb(120,195,216)" border-top-style="solid" border-top-width="150" border-bottom-color="rgb(120,195,216)" border-bottom-style="solid" border-bottom-width="75"  />
+<style family="border" name="border3" border-right-color="rgb(182,221,238)" border-right-style="solid" border-right-width="75" border-left-color="rgb(182,221,238)" border-left-style="solid" border-left-width="75" border-top-color="rgb(182,221,238)" border-top-style="solid" border-top-width="75" border-bottom-color="rgb(182,221,238)" border-bottom-style="solid" border-bottom-width="75"  />
+<style family="border" name="border4" border-right-color="rgb(182,221,238)" border-right-style="solid" border-right-width="75" border-left-color="rgb(182,221,238)" border-left-style="solid" border-left-width="75" border-top-color="rgb(120,195,216)" border-top-style="solid" border-top-width="150" border-bottom-color="rgb(182,221,238)" border-bottom-style="solid" border-bottom-width="75"  />
+<style family="border" name="border5" border-right-color="rgb(182,221,238)" border-right-style="solid" border-right-width="75" border-left-color="rgb(182,221,238)" border-left-style="solid" border-left-width="75" border-top-color="rgb(182,221,238)" border-top-style="solid" border-top-width="75" border-bottom-color="rgb(120,195,216)" border-bottom-style="solid" border-bottom-width="75"  />
+<style family="border" name="border6" border-right-color="rgb(207,207,207)" border-right-style="solid" border-right-width="100" border-left-color="rgb(182,221,238)" border-left-style="solid" border-left-width="75" border-top-color="rgb(120,195,216)" border-top-style="solid" border-top-width="150" border-bottom-color="rgb(120,195,216)" border-bottom-style="solid" border-bottom-width="75"  />
+<style family="border" name="border7" border-right-color="rgb(182,221,238)" border-right-style="solid" border-right-width="75" border-left-color="rgb(207,207,207)" border-left-style="solid" border-left-width="100" border-top-color="rgb(120,195,216)" border-top-style="solid" border-top-width="150" border-bottom-color="rgb(120,195,216)" border-bottom-style="solid" border-bottom-width="75"  />
+<style family="border" name="border8" border-right-color="rgb(182,221,238)" border-right-style="solid" border-right-width="75" border-left-color="rgb(182,221,238)" border-left-style="solid" border-left-width="75" border-top-color="rgb(120,195,216)" border-top-style="solid" border-top-width="75" border-bottom-color="rgb(182,221,238)" border-bottom-style="solid" border-bottom-width="75"  />
+<style family="background" name="background0" background-color="rgb(204,255,255)" background-style="normal" background-fill-color="4451184" background-fill-style="none"  />
+<style family="background" name="background1" background-color="rgb(255,255,255)" background-style="transparent" background-fill-color="4451236" background-fill-style="none"  />
+<style family="background" name="background2" background-color="rgb(213,241,250)" background-style="normal" background-fill-color="4451184" background-fill-style="none"  />
+<style family="background" name="background3" background-color="rgb(255,255,255)" background-style="transparent" background-fill-color="4451184" background-fill-style="none"  />
+<style family="font" name="font0" font-name="맑은 고딕" font-color="rgb(18,93,125)" font-size="14" font-strike="0" font-underline="0" font-italic="0" font-bold="1" font-wordwrap="1" font-horizontal-align="middle" font-vertical-align="center"  />
+<style family="font" name="font1" font-name="나눔고딕" font-color="rgb(28,36,40)" font-size="10" font-strike="0" font-underline="0" font-italic="0" font-bold="1" font-wordwrap="1" font-horizontal-align="left" font-vertical-align="center"  />
+<style family="font" name="font2" font-name="나눔고딕" font-color="rgb(28,36,40)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="left" font-vertical-align="center"  />
+<style family="font" name="font3" font-name="나눔고딕" font-color="rgb(18,93,125)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="0" font-horizontal-align="middle" font-vertical-align="center"  />
+<style family="font" name="font4" font-name="나눔고딕" font-color="rgb(243,120,0)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="left" font-vertical-align="center"  />
+<style family="font" name="font5" font-name="나눔고딕" font-color="rgb(0,0,0)" font-size="10" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="left" font-vertical-align="top"  />
+<style family="font" name="font6" font-name="나눔고딕" font-color="rgb(28,36,40)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="0" font-horizontal-align="middle" font-vertical-align="center"  />
+<style family="font" name="font7" font-name="나눔고딕" font-color="rgb(18,93,125)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="left" font-vertical-align="center"  />
+<style family="font" name="font8" font-name="돋움" font-color="rgb(28,36,40)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="left" font-vertical-align="center"  />
+<style family="font" name="font9" font-name="나눔고딕" font-color="rgb(18,93,125)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="middle" font-vertical-align="center"  />
+<style family="font" name="font10" font-name="나눔고딕" font-color="rgb(28,36,40)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="middle" font-vertical-align="center"  />
+<style family="image" name="image0" image-source="data" image-data="R0lGODlhCwALAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgICAgMDAwP8AAAD/AP//AAAA//8A/wD//////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMwAAZgAAmQAAzAAA/wAzAAAzMwAzZgAzmQAzzAAz/wBmAABmMwBmZgBmmQBmzABm/wCZAACZMwCZZgCZmQCZzACZ/wDMAADMMwDMZgDMmQDMzADM/wD/AAD/MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMzADMzMzMzZjMzmTMzzDMz/zNmADNmMzNmZjNmmTNmzDNm/zOZADOZMzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/MzP/ZjP/mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz/2ZmAGZmM2ZmZmZmmWZmzGZm/2aZAGaZM2aZZmaZmWaZzGaZ/2bMAGbMM2bMZmbMmWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb//5kAAJkAM5kAZpkAmZkAzJkA/5kzAJkzM5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZAJmZM5mZZpmZmZmZzJmZ/5nMAJnMM5nMZpnMmZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwAM8wAZswAmcwAzMwA/8wzAMwzM8wzZswzmcwzzMwz/8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZM8yZZsyZmcyZzMyZ/8zMAMzMM8zMZszMmczMzMzM/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8Amf8AzP8A//8zAP8zM/8zZv8zmf8zzP8z//9mAP9mM/9mZv9mmf9mzP9m//+ZAP+ZM/+ZZv+Zmf+ZzP+Z///MAP/MM//MZv/Mmf/MzP/M////AP//M///Zv//mf//zP///ywAAAAACwALAAAIKQAfCBxIcCC8gwjhGUyYUGDDhg8YRjzoUCLFiQgxVqQIkSFEjB8LFgwIADs=" image-fill="original" image-align-horizontal="middle" image-align-vertical="center"  />
+<style family="image" name="image1" image-source="data" image-data="Qk1mAAAAAAAAADYAAAAoAAAABAAAAAQAAAABABgAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////Li40Li40////////Li02Li02////////////////////" image-fill="original" image-align-horizontal="middle" image-align-vertical="center"  />
+<style family="image" name="image2" image-source="data" image-data="R0lGODlhCwALAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgICAgMDAwP8AAAD/AP//AAAA//8A/wD//////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMwAAZgAAmQAAzAAA/wAzAAAzMwAzZgAzmQAzzAAz/wBmAABmMwBmZgBmmQBmzABm/wCZAACZMwCZZgCZmQCZzACZ/wDMAADMMwDMZgDMmQDMzADM/wD/AAD/MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMzADMzMzMzZjMzmTMzzDMz/zNmADNmMzNmZjNmmTNmzDNm/zOZADOZMzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/MzP/ZjP/mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz/2ZmAGZmM2ZmZmZmmWZmzGZm/2aZAGaZM2aZZmaZmWaZzGaZ/2bMAGbMM2bMZmbMmWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb//5kAAJkAM5kAZpkAmZkAzJkA/5kzAJkzM5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZAJmZM5mZZpmZmZmZzJmZ/5nMAJnMM5nMZpnMmZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwAM8wAZswAmcwAzMwA/8wzAMwzM8wzZswzmcwzzMwz/8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZM8yZZsyZmcyZzMyZ/8zMAMzMM8zMZszMmczMzMzM/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8Amf8AzP8A//8zAP8zM/8zZv8zmf8zzP8z//9mAP9mM/9mZv9mmf9mzP9m//+ZAP+ZM/+ZZv+Zmf+ZzP+Z///MAP/MM//MZv/Mmf/MzP/M////AP//M///Zv//mf//zP///ywAAAAACwALAAAIKQAfCBxIcCC8gwjhGUyYUGDDhg8YRjzoUCLFiQgxVqQIkSFEjB8LFgwIADs=" image-fill="original" image-align-horizontal="middle" image-align-vertical="center"  />
+<style family="image" name="image3" image-source="data" image-data="R0lGODlhCwALAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgICAgMDAwP8AAAD/AP//AAAA//8A/wD//////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMwAAZgAAmQAAzAAA/wAzAAAzMwAzZgAzmQAzzAAz/wBmAABmMwBmZgBmmQBmzABm/wCZAACZMwCZZgCZmQCZzACZ/wDMAADMMwDMZgDMmQDMzADM/wD/AAD/MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMzADMzMzMzZjMzmTMzzDMz/zNmADNmMzNmZjNmmTNmzDNm/zOZADOZMzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/MzP/ZjP/mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz/2ZmAGZmM2ZmZmZmmWZmzGZm/2aZAGaZM2aZZmaZmWaZzGaZ/2bMAGbMM2bMZmbMmWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb//5kAAJkAM5kAZpkAmZkAzJkA/5kzAJkzM5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZAJmZM5mZZpmZmZmZzJmZ/5nMAJnMM5nMZpnMmZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwAM8wAZswAmcwAzMwA/8wzAMwzM8wzZswzmcwzzMwz/8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZM8yZZsyZmcyZzMyZ/8zMAMzMM8zMZszMmczMzMzM/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8Amf8AzP8A//8zAP8zM/8zZv8zmf8zzP8z//9mAP9mM/9mZv9mmf9mzP9m//+ZAP+ZM/+ZZv+Zmf+ZzP+Z///MAP/MM//MZv/Mmf/MzP/M////AP//M///Zv//mf//zP///ywAAAAACwALAAAIKQAfCBxIcCC8gwjhGUyYUGDDhg8YRjzoUCLFiQgxVqQIkSFEjB8LFgwIADs=" image-fill="original" image-align-horizontal="middle" image-align-vertical="center"  />
+<style family="image" name="image4" image-source="data" image-data="R0lGODlhCwALAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgICAgMDAwP8AAAD/AP//AAAA//8A/wD//////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMwAAZgAAmQAAzAAA/wAzAAAzMwAzZgAzmQAzzAAz/wBmAABmMwBmZgBmmQBmzABm/wCZAACZMwCZZgCZmQCZzACZ/wDMAADMMwDMZgDMmQDMzADM/wD/AAD/MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMzADMzMzMzZjMzmTMzzDMz/zNmADNmMzNmZjNmmTNmzDNm/zOZADOZMzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/MzP/ZjP/mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz/2ZmAGZmM2ZmZmZmmWZmzGZm/2aZAGaZM2aZZmaZmWaZzGaZ/2bMAGbMM2bMZmbMmWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb//5kAAJkAM5kAZpkAmZkAzJkA/5kzAJkzM5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZAJmZM5mZZpmZmZmZzJmZ/5nMAJnMM5nMZpnMmZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwAM8wAZswAmcwAzMwA/8wzAMwzM8wzZswzmcwzzMwz/8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZM8yZZsyZmcyZzMyZ/8zMAMzMM8zMZszMmczMzMzM/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8Amf8AzP8A//8zAP8zM/8zZv8zmf8zzP8z//9mAP9mM/9mZv9mmf9mzP9m//+ZAP+ZM/+ZZv+Zmf+ZzP+Z///MAP/MM//MZv/Mmf/MzP/M////AP//M///Zv//mf//zP///ywAAAAACwALAAAIKQAfCBxIcCC8gwjhGUyYUGDDhg8YRjzoUCLFiQgxVqQIkSFEjB8LFgwIADs=" image-fill="original" image-align-horizontal="middle" image-align-vertical="center"  />
+<style family="image" name="image5" image-source="data" image-data="R0lGODlhCwALAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgICAgMDAwP8AAAD/AP//AAAA//8A/wD//////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMwAAZgAAmQAAzAAA/wAzAAAzMwAzZgAzmQAzzAAz/wBmAABmMwBmZgBmmQBmzABm/wCZAACZMwCZZgCZmQCZzACZ/wDMAADMMwDMZgDMmQDMzADM/wD/AAD/MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMzADMzMzMzZjMzmTMzzDMz/zNmADNmMzNmZjNmmTNmzDNm/zOZADOZMzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/MzP/ZjP/mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz/2ZmAGZmM2ZmZmZmmWZmzGZm/2aZAGaZM2aZZmaZmWaZzGaZ/2bMAGbMM2bMZmbMmWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb//5kAAJkAM5kAZpkAmZkAzJkA/5kzAJkzM5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZAJmZM5mZZpmZmZmZzJmZ/5nMAJnMM5nMZpnMmZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwAM8wAZswAmcwAzMwA/8wzAMwzM8wzZswzmcwzzMwz/8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZM8yZZsyZmcyZzMyZ/8zMAMzMM8zMZszMmczMzMzM/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8Amf8AzP8A//8zAP8zM/8zZv8zmf8zzP8z//9mAP9mM/9mZv9mmf9mzP9m//+ZAP+ZM/+ZZv+Zmf+ZzP+Z///MAP/MM//MZv/Mmf/MzP/M////AP//M///Zv//mf//zP///ywAAAAACwALAAAIKQAfCBxIcCC8gwjhGUyYUGDDhg8YRjzoUCLFiQgxVqQIkSFEjB8LFgwIADs=" image-fill="original" image-align-horizontal="middle" image-align-vertical="center"  />
+<style family="image" name="image6" image-source="data" image-data="R0lGODlhCwALAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgICAgMDAwP8AAAD/AP//AAAA//8A/wD//////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMwAAZgAAmQAAzAAA/wAzAAAzMwAzZgAzmQAzzAAz/wBmAABmMwBmZgBmmQBmzABm/wCZAACZMwCZZgCZmQCZzACZ/wDMAADMMwDMZgDMmQDMzADM/wD/AAD/MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMzADMzMzMzZjMzmTMzzDMz/zNmADNmMzNmZjNmmTNmzDNm/zOZADOZMzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/MzP/ZjP/mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz/2ZmAGZmM2ZmZmZmmWZmzGZm/2aZAGaZM2aZZmaZmWaZzGaZ/2bMAGbMM2bMZmbMmWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb//5kAAJkAM5kAZpkAmZkAzJkA/5kzAJkzM5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZAJmZM5mZZpmZmZmZzJmZ/5nMAJnMM5nMZpnMmZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwAM8wAZswAmcwAzMwA/8wzAMwzM8wzZswzmcwzzMwz/8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZM8yZZsyZmcyZzMyZ/8zMAMzMM8zMZszMmczMzMzM/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8Amf8AzP8A//8zAP8zM/8zZv8zmf8zzP8z//9mAP9mM/9mZv9mmf9mzP9m//+ZAP+ZM/+ZZv+Zmf+ZzP+Z///MAP/MM//MZv/Mmf/MzP/M////AP//M///Zv//mf//zP///ywAAAAACwALAAAIKQAfCBxIcCC8gwjhGUyYUGDDhg8YRjzoUCLFiQgxVqQIkSFEjB8LFgwIADs=" image-fill="original" image-align-horizontal="middle" image-align-vertical="center"  />
+<style family="image" name="image7" image-source="data" image-data="R0lGODlhCwALAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgICAgMDAwP8AAAD/AP//AAAA//8A/wD//////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMwAAZgAAmQAAzAAA/wAzAAAzMwAzZgAzmQAzzAAz/wBmAABmMwBmZgBmmQBmzABm/wCZAACZMwCZZgCZmQCZzACZ/wDMAADMMwDMZgDMmQDMzADM/wD/AAD/MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMzADMzMzMzZjMzmTMzzDMz/zNmADNmMzNmZjNmmTNmzDNm/zOZADOZMzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/MzP/ZjP/mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz/2ZmAGZmM2ZmZmZmmWZmzGZm/2aZAGaZM2aZZmaZmWaZzGaZ/2bMAGbMM2bMZmbMmWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb//5kAAJkAM5kAZpkAmZkAzJkA/5kzAJkzM5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZAJmZM5mZZpmZmZmZzJmZ/5nMAJnMM5nMZpnMmZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwAM8wAZswAmcwAzMwA/8wzAMwzM8wzZswzmcwzzMwz/8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZM8yZZsyZmcyZzMyZ/8zMAMzMM8zMZszMmczMzMzM/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8Amf8AzP8A//8zAP8zM/8zZv8zmf8zzP8z//9mAP9mM/9mZv9mmf9mzP9m//+ZAP+ZM/+ZZv+Zmf+ZzP+Z///MAP/MM//MZv/Mmf/MzP/M////AP//M///Zv//mf//zP///ywAAAAACwALAAAIKQAfCBxIcCC8gwjhGUyYUGDDhg8YRjzoUCLFiQgxVqQIkSFEjB8LFgwIADs=" image-fill="original" image-align-horizontal="middle" image-align-vertical="center"  />
+<style family="image" name="image8" image-source="data" image-data="Qk1mAAAAAAAAADYAAAAoAAAABAAAAAQAAAABABgAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////Li40Li40////////Li02Li02////////////////////" image-fill="original" image-align-horizontal="middle" image-align-vertical="center"  />
+</styles>
+<fields>
+<field-set field-type="parameter">
+</field-set>
+</fields>
+</global>
+<body dataset-name="DataSet 1">
+<local>
+<fields>
+<field-set field-type="database">
+<field name="방문희망영업점" xpath="../../방문희망영업점"/>
+<field name="SHOW_CERT" xpath="../../SHOW_CERT"/>
+<field name="STEP10" xpath="../../STEP10"/>
+<field name="발급구분" xpath="../../발급구분"/>
+<field name="STEP11" xpath="../../STEP11"/>
+<field name="STEP12" xpath="../../STEP12"/>
+<field name="자택주소" xpath="../../자택주소"/>
+<field name="SHOW_6" xpath="../../SHOW_6"/>
+<field name="직장명" xpath="../../직장명"/>
+<field name="E-mail주소" xpath="../../E-mail주소"/>
+<field name="SHOW_10" xpath="../../SHOW_10"/>
+<field name="월소득" xpath="../../월소득"/>
+<field name="가족카드수령지" xpath="../../가족카드수령지"/>
+<field name="SHOW_7" xpath="../../SHOW_7"/>
+<field name="희망한도" xpath="../../희망한도"/>
+<field name="자택전화번호" xpath="../../자택전화번호"/>
+<field name="직업" xpath="../../직업"/>
+<field name="부서명" xpath="../../부서명"/>
+<field name="페이플랜결제방식" xpath="../../페이플랜결제방식"/>
+<field name="핸드폰번호" xpath="../../핸드폰번호"/>
+<field name="신분증종류" xpath="../../신분증종류"/>
+<field name="직장주소" xpath="../../직장주소"/>
+<field name="문자알림서비스" xpath="../../문자알림서비스"/>
+<field name="신분증번호" xpath="../../신분증번호"/>
+<field name="인증서소유여부" xpath="../../인증서소유여부"/>
+<field name="명세서수령지" xpath="../../명세서수령지"/>
+<field name="명세서수령방법" xpath="../../명세서수령방법"/>
+<field name="직장전화번호" xpath="../../직장전화번호"/>
+<field name="신분증발행일자" xpath="../../신분증발행일자"/>
+<field name="CGV지점" xpath="../../CGV지점"/>
+<field name="신분증발행기관" xpath="../../신분증발행기관"/>
+<field name="결제기관" xpath="../../결제기관"/>
+<field name="SHOW_1" xpath="../../SHOW_1"/>
+<field name="SHOW_9" xpath="../../SHOW_9"/>
+<field name="결제계좌번호" xpath="../../결제계좌번호"/>
+<field name="SHOW_2" xpath="../../SHOW_2"/>
+<field name="현금카드기능신청" xpath="../../현금카드기능신청"/>
+<field name="SHOW_8" xpath="../../SHOW_8"/>
+<field name="결제일" xpath="../../결제일"/>
+<field name="SHOW_3" xpath="../../SHOW_3"/>
+<field name="SHOW_4" xpath="../../SHOW_4"/>
+<field name="SHOW_5" xpath="../../SHOW_5"/>
+<field name="카드수령지" xpath="../../카드수령지"/>
+<field name="STEP1" xpath="../../STEP1"/>
+<field name="STEP2" xpath="../../STEP2"/>
+<field name="STEP3" xpath="../../STEP3"/>
+<field name="신용정보관리서비스" xpath="../../신용정보관리서비스"/>
+<field name="발급대상" xpath="../../발급대상"/>
+<field name="기념일정보" xpath="../../기념일정보"/>
+<field name="STEP4" xpath="../../STEP4"/>
+<field name="STEP5" xpath="../../STEP5"/>
+<field name="맞춤서비스" xpath="../../맞춤서비스"/>
+<field name="STEP6" xpath="../../STEP6"/>
+<field name="STEP7" xpath="../../STEP7"/>
+<field name="STEP8" xpath="../../STEP8"/>
+<field name="STEP9" xpath="../../STEP9"/>
+<field name="이용내역서발송" xpath="../../이용내역서발송"/>
+<field name="성명" xpath="성명"/>
+<field name="영문성명" xpath="영문성명"/>
+<field name="주민등록번호" xpath="주민등록번호"/>
+<field name="mx_internal_uid" xpath="mx_internal_uid"/>
+<field name="카드구분" xpath="카드구분"/>
+<field name="카드종류" xpath="카드종류"/>
+<field name="구분" xpath="구분"/>
+<field name="SHOW_11" xpath="../../SHOW_11"/>
+<field name="듀얼페이먼트신청구분" xpath="../../듀얼페이먼트신청구분"/>
+<field name="듀얼페이먼트결제방식" xpath="../../듀얼페이먼트결제방식"/>
+<field name="듀얼페이먼트제한금액" xpath="../../듀얼페이먼트제한금액"/>
+<field name="SHOW_12" xpath="../../SHOW_12"/>
+<field name="STEP13" xpath="../../STEP13"/>
+<field name="STEP14" xpath="../../STEP14"/>
+<field name="STEP15" xpath="../../STEP15"/>
+<field name="STEP16" xpath="../../STEP16"/>
+<field name="SHOW_13" xpath="../../SHOW_13"/>
+<field name="가족연락처" xpath="../../가족연락처"/>
+<field name="플레이어신청여부" xpath="../../플레이어신청여부"/>
+<field name="플레이어타입" xpath="../../플레이어타입"/>
+<field name="세이브서비스신청" xpath="../../세이브서비스신청"/>
+<field name="SHOW_14" xpath="../../SHOW_14"/>
+<field name="SHOW_15" xpath="../../SHOW_15"/>
+<field name="금융포인트신청" xpath="../../금융포인트신청"/>
+<field name="금융포인트타입" xpath="../../금융포인트타입"/>
+<field name="금융포인트계좌번호" xpath="../../금융포인트계좌번호"/>
+<field name="금융포인트계좌명" xpath="../../금융포인트계좌명"/>
+<field name="SHOW_4_1" xpath="../../SHOW_4_1"/>
+<field name="맞춤서비스타이틀" xpath="../../맞춤서비스타이틀"/>
+<field name="STEP17" xpath="../../STEP17"/>
+<field name="STEP18" xpath="../../STEP18"/>
+<field name="staffnumber" xpath="../../staffnumber"/>
+<field name="체크출금결제계좌번호" xpath="../../체크출금결제계좌번호"/>
+<field name="aptServiceValue" xpath="../../aptServiceValue"/>
+<field name="sDetailAddr" xpath="../../sDetailAddr"/>
+<field name="sAptNm" xpath="../../sAptNm"/>
+<field name="sDongHoNm" xpath="../../sDongHoNm"/>
+<field name="isAPTCardYn" xpath="../../isAPTCardYn"/>
+<field name="usimType" xpath="../../usimType"/>
+<field name="GoodPlanService" xpath="../../GoodPlanService"/>
+<field name="GoodPlanAcct" xpath="../../GoodPlanAcct"/>
+<field name="GoodPlanServiceNM" xpath="../../GoodPlanServiceNM"/>
+</field-set>
+<field-set field-type="formula">
+<field name="page"><![CDATA[return "{%PageNofM}" + " page";]]></field>
+</field-set>
+</fields>
+<conditional-style>
+</conditional-style>
+</local>
+<page page-type="a4" page-width="2100" page-height="2970" page-direction="portrait" page-margin-right="150" page-margin-left="150" page-margin-top="150" page-margin-bottom="150" >
+<section-set section-type="reportheader">
+<section name="보고서머리글1" height="130"
+visible-style="visible0" >
+<control control-type="table" name="표11" x1="90" y1="0" visible-style="visible0" >
+<column width='1620'/>
+<row height='130'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background0" border-style="border0" font-style="font0" ><![CDATA[카드 신청 정보내역]]></cell>
+</row>
+</control>
+</section>
+<section name="보고서머리글" height="220"
+visible-style="visible0" >
+<control control-type="textbox" content-type="text" name="글상자1" x1="40" y1="20" width="420" height="60" background-style="background1" border-style="border1" font-style="font1" ><![CDATA[신청인 정보사항]]></control>
+<control control-type="textbox" content-type="text" name="글상자2" x1="40" y1="80" width="155" height="60" background-style="background1" border-style="border1" font-style="font2" ><![CDATA[발급구분 :]]></control>
+<control control-type="textbox" content-type="text" name="글상자4" x1="376" y1="80" width="183" height="60" background-style="background1" border-style="border1" font-style="font2" ><![CDATA[/ 발급대상 :]]></control>
+<control control-type="table" name="표6" x1="0" y1="160" visible-style="visible0" >
+<column width='128'/>
+<column width='422'/>
+<column width='250'/>
+<column width='450'/>
+<column width='550'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border2" font-style="font3" ><![CDATA[구분]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border2" font-style="font3" ><![CDATA[주민등록번호]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border2" font-style="font3" ><![CDATA[성명]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border2" font-style="font3" ><![CDATA[영문성명]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border2" font-style="font3" ><![CDATA[카드종류]]></cell>
+</row>
+</control>
+<control control-type="textbox" content-type="field" name="필드1" x1="200" y1="80" width="168" height="60" background-style="background1" border-style="border1" font-style="font4" ><![CDATA[database.발급구분]]></control>
+<control control-type="textbox" content-type="field" name="필드2" x1="560" y1="80" width="192" height="60" background-style="background1" border-style="border1" font-style="font4" ><![CDATA[database.발급대상]]></control>
+<control control-type="textbox" content-type="text" name="그림4" x1="0" y1="30" width="29" height="29" background-style="background1" border-style="border1" font-style="font5" image-style="image0" ><![CDATA[]]></control>
+<control control-type="textbox" content-type="text" name="그림13" x1="4" y1="100" width="20" height="20" background-style="background1" border-style="border1" font-style="font5" image-style="image1" ><![CDATA[]]></control>
+<control control-type="textbox" content-type="text" name="글상자3" x1="750" y1="80" width="158" height="60" background-style="background1" border-style="border1" font-style="font2" ><![CDATA[/ 카드명 :]]></control>
+<control control-type="textbox" content-type="field" name="필드3" x1="918" y1="80" width="882" height="60" background-style="background1" border-style="border1" font-style="font4" ><![CDATA[database.카드종류]]></control>
+</section>
+</section-set>
+<section-set section-type="pageheader">
+<section name="페이지머리글" height="50"
+visible-style="visible1" >
+</section>
+</section-set>
+<section-set section-type="detail">
+<section name="본문" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표9" x1="0" y1="0" visible-style="visible0" >
+<column width='128'/>
+<column width='422'/>
+<column width='250'/>
+<column width='450'/>
+<column width='550'/>
+<row height='60'>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font6" ><![CDATA[database.구분]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font6" ><![CDATA[database.주민등록번호]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font6" ><![CDATA[database.성명]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font6" ><![CDATA[database.영문성명]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font6" ><![CDATA[database.카드구분]]></cell>
+</row>
+</control>
+</section>
+</section-set>
+<section-set section-type="reportfooter">
+<section name="보고서바닥글" height="350"
+visible-style="visible0" >
+<control control-type="table" name="표2" x1="40" y1="59" visible-style="visible0" >
+<column width='1758'/>
+<row height='51'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background3" border-style="border1" font-style="font1" ><![CDATA[고객 및 카드정보 입력사항]]></cell>
+</row>
+</control>
+<control control-type="table" name="표3" x1="0" y1="110" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border4" font-style="font7" ><![CDATA[자택주소]]></cell>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background3" border-style="border4" font-style="font2" ><![CDATA[database.자택주소]]></cell>
+</row>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[자택전화번호]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.자택전화번호]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[핸드폰 번호]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.핸드폰번호]]></cell>
+</row>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[직장주소]]></cell>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.직장주소]]></cell>
+</row>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[직장명]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.직장명]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[부서명]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.부서명]]></cell>
+</row>
+</control>
+<control control-type="textbox" content-type="text" name="그림5" x1="0" y1="68" width="29" height="29" background-style="background1" border-style="border1" font-style="font5" image-style="image2" ><![CDATA[]]></control>
+</section>
+<section name="확장섹션5" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표7" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[직업]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.직업]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[이용내역서발송]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.이용내역서발송]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션14" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표19" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='353'/>
+<column width='632'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[직업]]></cell>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.직업]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션6" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표11" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[직장전화번호]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.직장전화번호]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[E-mail 주소]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.E-mail주소]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션16" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표24" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[E-mail 주소]]></cell>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.E-mail주소]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션8" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표14" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[희망한도]]></cell>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.희망한도]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션10" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표16" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[월소득]]></cell>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.월소득]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션9" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표15" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[페이플랜결제방식]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.페이플랜결제방식]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[문자알림ⓔ서비스]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.문자알림서비스]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션18" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표25" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[페이플랜결제방식]]></cell>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.페이플랜결제방식]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션21" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표30" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[듀얼페이먼트신청]]></cell>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.듀얼페이먼트신청구분]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션22" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표31" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[듀얼체크결제방식]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.듀얼페이먼트결제방식]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[듀얼체크제한금액]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.듀얼페이먼트제한금액]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션24" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표35" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[플레이어동시구매]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.플레이어신청여부]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[플레이어 타입]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.플레이어타입]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션27" height="80"
+visible-style="visible0" >
+<control control-type="table" name="표34" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='80'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[KB &d카드 세이브 
+서비스 약정여부]]></cell>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.세이브서비스신청]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션30" height="80"
+visible-style="visible0" >
+<control control-type="table" name="표33" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='80'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[금융포인트 활용서비스]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.금융포인트신청]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[금융포인트 활용서비스 타입]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.금융포인트타입]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션28" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표36" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[database.금융포인트계좌명]]></cell>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.금융포인트계좌번호]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션11" height="120"
+visible-style="visible0" >
+<control control-type="table" name="표17" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[신분증종류]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.신분증종류]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[신분증번호]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.신분증번호]]></cell>
+</row>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[신분증발행일자]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.신분증발행일자]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[신분증발행기관]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.신분증발행기관]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션12" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표18" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[결제기관]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.결제기관]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[결제계좌번호]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.결제계좌번호]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션29" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표41" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[체크출금계좌]]></cell>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.체크출금결제계좌번호]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션13" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표20" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[현금카드기능신청]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.현금카드기능신청]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[결제일]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.결제일]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션23" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표29" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[명세서 수령방법]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.명세서수령방법]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[명세서 수령지]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.명세서수령지]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션20" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표27" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[카드수령지]]></cell>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.카드수령지]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션15" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표23" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[결제일]]></cell>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.결제일]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션19" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표26" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[방문희망영업점]]></cell>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.카드수령지]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션17" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표22" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[가족카드 수령지]]></cell>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.가족카드수령지]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션26" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표28" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[가족연락처]]></cell>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.가족연락처]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션3" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표10" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border5" font-style="font7" ><![CDATA[CGV 지점]]></cell>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background3" border-style="border5" font-style="font2" ><![CDATA[database.CGV지점]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션31" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표38" x1="0" y1="0" visible-style="visible0" >
+<column width='351'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border5" font-style="font7" ><![CDATA[권유직원번호]]></cell>
+</row>
+</control>
+<control control-type="table" name="표39" x1="350" y1="0" visible-style="visible0" >
+<column width='462'/>
+<column width='354'/>
+<column width='633'/>
+<row height='60'>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background3" border-style="border5" font-style="font8" ><![CDATA[database.staffnumber]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션32" height="280"
+visible-style="visible0" >
+<control control-type="textbox" content-type="text" name="그림2" x1="0" y1="50" width="29" height="29" background-style="background1" border-style="border1" font-style="font5" image-style="image3" ><![CDATA[]]></control>
+<control control-type="table" name="표40" x1="38" y1="38" visible-style="visible0" >
+<column width='1760'/>
+<row height='59'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background3" border-style="border1" font-style="font1" ><![CDATA[아파트관리비 자동이체 정보]]></cell>
+</row>
+</control>
+<control control-type="table" name="표42" x1="0" y1="100" visible-style="visible0" >
+<column width='350'/>
+<column width='1446'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border4" font-style="font7" ><![CDATA[아파트관리비 자동이체]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border4" font-style="font2" ><![CDATA[database.aptServiceValue]]></cell>
+</row>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border5" font-style="font7" ><![CDATA[주소]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border5" font-style="font2" ><![CDATA[database.sDetailAddr]]></cell>
+</row>
+</control>
+<control control-type="table" name="표44" x1="0" y1="220" visible-style="visible0" >
+<column width='351'/>
+<column width='461'/>
+<column width='353'/>
+<column width='631'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[아파트명]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.sAptNm]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[동/호수]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.sDongHoNm]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션2" height="220"
+visible-style="visible0" >
+<control control-type="table" name="표1" x1="40" y1="41" visible-style="visible0" >
+<column width='1760'/>
+<row height='59'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background3" border-style="border1" font-style="font1" ><![CDATA[부가서비스 입력사항]]></cell>
+</row>
+</control>
+<control control-type="table" name="표8" x1="0" y1="100" visible-style="visible0" >
+<column width='430'/>
+<column width='1366'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border4" font-style="font7" ><![CDATA[신용정보 관리서비스]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border4" font-style="font2" ><![CDATA[database.신용정보관리서비스]]></cell>
+</row>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border5" font-style="font7" ><![CDATA[기념일 정보]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border5" font-style="font2" ><![CDATA[database.기념일정보]]></cell>
+</row>
+</control>
+<control control-type="textbox" content-type="text" name="그림6" x1="0" y1="54" width="29" height="29" background-style="background1" border-style="border1" font-style="font5" image-style="image4" ><![CDATA[]]></control>
+</section>
+<section name="확장섹션1" height="160"
+visible-style="visible0" >
+<control control-type="table" name="표12" x1="40" y1="49" visible-style="visible0" >
+<column width='1758'/>
+<row height='51'>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border1" font-style="font1" ><![CDATA[database.맞춤서비스타이틀]]></cell>
+</row>
+</control>
+<control control-type="table" name="표13" x1="0" y1="100" visible-style="visible0" >
+<column width='431'/>
+<column width='1369'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border6" font-style="font7" ><![CDATA[맞춤서비스]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border7" font-style="font2" ><![CDATA[database.맞춤서비스]]></cell>
+</row>
+</control>
+<control control-type="textbox" content-type="text" name="그림8" x1="0" y1="56" width="29" height="29" background-style="background1" border-style="border1" font-style="font5" image-style="image5" ><![CDATA[]]></control>
+</section>
+<section name="확장섹션34" height="160"
+visible-style="visible0" >
+<control control-type="table" name="표43" x1="50" y1="50" visible-style="visible0" >
+<column width='1758'/>
+<row height='51'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background3" border-style="border1" font-style="font1" ><![CDATA[굿플랜 자동입금서비스]]></cell>
+</row>
+</control>
+<control control-type="textbox" content-type="text" name="그림3" x1="0" y1="50" width="29" height="29" background-style="background1" border-style="border1" font-style="font5" image-style="image6" ><![CDATA[]]></control>
+<control control-type="table" name="표46" x1="0" y1="100" visible-style="visible0" >
+<column width='351'/>
+<column width='461'/>
+<column width='353'/>
+<column width='631'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[신청여부]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.GoodPlanServiceNM]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font7" ><![CDATA[KB굿플랜적금 계좌번호]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font2" ><![CDATA[database.GoodPlanAcct]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션4" height="400"
+visible-style="visible0" >
+<control control-type="table" name="표4" x1="40" y1="44" visible-style="visible0" >
+<column width='1757'/>
+<row height='56'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background3" border-style="border1" font-style="font1" ><![CDATA[회원 약관 등 승인 및 개인신용정보 조회·제공·이용 동의여부]]></cell>
+</row>
+</control>
+<control control-type="table" name="표5" x1="0" y1="100" visible-style="visible0" >
+<column width='769'/>
+<column width='258'/>
+<column width='259'/>
+<column width='257'/>
+<column width='257'/>
+<row height='60'>
+<cell content-type="text" rowspan="1" colspan="0" background-style="background2" border-style="border4" font-style="font9" ><![CDATA[구분]]></cell>
+<cell content-type="text" rowspan="0" colspan="1" background-style="background2" border-style="border2" font-style="font9" ><![CDATA[승인 또는 동의 여부]]></cell>
+<cell content-type="text" rowspan="0" colspan="1" background-style="background2" border-style="border2" font-style="font9" ><![CDATA[서명]]></cell>
+</row>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border8" font-style="font9" ><![CDATA[본인]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border8" font-style="font9" ><![CDATA[가족]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border8" font-style="font9" ><![CDATA[본인]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border8" font-style="font9" ><![CDATA[가족]]></cell>
+</row>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font9" ><![CDATA[주요거래조건 및 약관㈜]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font10" ><![CDATA[database.STEP1]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font10" ><![CDATA[database.STEP2]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font10" ><![CDATA[database.STEP3]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font10" ><![CDATA[database.STEP4]]></cell>
+</row>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font9" ><![CDATA[개인 신용정보의 조회·제공·이용동의서 I]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font10" ><![CDATA[database.STEP5]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font10" ><![CDATA[database.STEP6]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font10" ><![CDATA[database.STEP7]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font10" ><![CDATA[database.STEP8]]></cell>
+</row>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font9" ><![CDATA[개인 신용정보의 조회·제공·이용동의서 II]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font10" ><![CDATA[database.STEP9]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font10" ><![CDATA[database.STEP10]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font10" ><![CDATA[database.STEP11]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font10" ><![CDATA[database.STEP12]]></cell>
+</row>
+</control>
+<control control-type="textbox" content-type="text" name="그림9" x1="0" y1="56" width="29" height="29" background-style="background1" border-style="border1" font-style="font5" image-style="image7" ><![CDATA[]]></control>
+</section>
+<section name="확장섹션33" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표37" x1="0" y1="0" visible-style="visible0" >
+<column width='769'/>
+<column width='258'/>
+<column width='259'/>
+<column width='257'/>
+<column width='257'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font9" ><![CDATA[개인 신용정보의 조회·제공·이용동의서 III]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font10" ><![CDATA[database.STEP17]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font10" ><![CDATA[database.STEP18]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font10" ><![CDATA[database.STEP11]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font10" ><![CDATA[database.STEP12]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션25" height="60"
+visible-style="visible0" >
+<control control-type="table" name="표32" x1="0" y1="0" visible-style="visible0" >
+<column width='769'/>
+<column width='258'/>
+<column width='259'/>
+<column width='257'/>
+<column width='257'/>
+<row height='60'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font9" ><![CDATA[보험사 정보제공 동의]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font10" ><![CDATA[database.STEP13]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font10" ><![CDATA[database.STEP14]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font10" ><![CDATA[database.STEP15]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font10" ><![CDATA[database.STEP16]]></cell>
+</row>
+</control>
+</section>
+<section name="확장섹션7" height="244"
+visible-style="visible0" >
+<control control-type="textbox" content-type="text" name="글상자6" x1="40" y1="50" width="1750" height="40" background-style="background1" border-style="border1" font-style="font4" ><![CDATA[주) 신용카드 회원약관(개인회원용), 타행계좌 신청시 CMS출금이체, 자동이체약관, 문자알림ⓔ(SMS)서비스                           
+    ]]></control>
+<control control-type="textbox" content-type="text" name="글상자7" x1="40" y1="100" width="1260" height="40" background-style="background1" border-style="border1" font-style="font4" ><![CDATA[신청시는 문자알림ⓔ(SMS)서비스 이용약관 및 제휴카드 신청시 해당 제휴카드 특약]]></control>
+<control control-type="textbox" content-type="text" name="글상자8" x1="40" y1="170" width="1670" height="50" background-style="background1" border-style="border1" font-style="font2" ><![CDATA[상기 내용은 전자거래기본법 및 전자서명법 등 관계법령에 의거하여 전자문서로서 관리됩니다.]]></control>
+<control control-type="textbox" content-type="text" name="그림16" x1="0" y1="60" width="20" height="20" background-style="background1" border-style="border1" font-style="font5" image-style="image8" ><![CDATA[]]></control>
+</section>
+</section-set>
+<section-set section-type="pagefooter">
+<section name="페이지바닥글" height="74"
+visible-style="visible0" >
+</section>
+</section-set>
+</page>
+</body></document>

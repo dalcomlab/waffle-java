@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap_thumbnails_example",
+  "version": "1.0.0",
+  "description": "WCG -- Bootstrap Thumbnails Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bootstrap",
+    "Thumbnails",
+    "WebCodeGeeks"
+  ],
+  "author": "Siddharth Seth",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}

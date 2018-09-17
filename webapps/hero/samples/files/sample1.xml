@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?><document type="" version="1.0"><global>
+<connections>
+<connection connection-type="xml" name="Connection 1">
+<config-param-list>
+<config-param name="xml-path"><![CDATA[http://localhost:8080/hero/samples/files/sample1.data.xml]]></config-param>
+<config-param name="xsl-path"><![CDATA[]]></config-param>
+</config-param-list>
+<dataset dataset-type="xml" name="DataSet 1"><config-param-list>
+<config-param name="xml-root"><![CDATA[dataset/list/detail]]></config-param>
+</config-param-list>
+<fields>
+<field-set field-type="database">
+<field name="조회구분" xpath="../../조회구분"/>
+<field name="업체명" xpath="../../업체명"/>
+<field name="사업자번호" xpath="../../사업자번호"/>
+<field name="조회기준일" xpath="../../조회기준일"/>
+<field name="결제금액T" xpath="../../결제금액T"/>
+<field name="부서명T" xpath="../../부서명T"/>
+<field name="카드번호T" xpath="../../카드번호T"/>
+<field name="STARTROW" xpath="../../STARTROW"/>
+<field name="ENDROW" xpath="../../ENDROW"/>
+<field name="청구년월" xpath="청구년월"/>
+<field name="결제금액" xpath="결제금액"/>
+</field-set>
+</fields>
+</dataset> 
+</connection>
+</connections>
+<styles>
+<style family="visible" name="visible0" visible="1" />
+<style family="visible" name="visible1" visible="0" />
+<style family="border" name="border0" border-right-color="rgb(0,0,0)" border-right-style="solid" border-right-width="75" border-left-color="rgb(0,0,0)" border-left-style="solid" border-left-width="75" border-top-color="rgb(0,0,0)" border-top-style="solid" border-top-width="75" border-bottom-color="rgb(0,0,0)" border-bottom-style="solid" border-bottom-width="75"  />
+<style family="border" name="border1" border-right-color="rgb(0,0,0)" border-right-style="none" border-right-width="75" border-left-color="rgb(0,0,0)" border-left-style="none" border-left-width="75" border-top-color="rgb(0,0,0)" border-top-style="none" border-top-width="75" border-bottom-color="rgb(0,0,0)" border-bottom-style="none" border-bottom-width="75"  />
+<style family="border" name="border2" border-right-color="rgb(182,221,238)" border-right-style="solid" border-right-width="75" border-left-color="rgb(182,221,238)" border-left-style="solid" border-left-width="75" border-top-color="rgb(120,195,216)" border-top-style="solid" border-top-width="150" border-bottom-color="rgb(182,221,238)" border-bottom-style="solid" border-bottom-width="75"  />
+<style family="border" name="border3" border-right-color="rgb(182,221,238)" border-right-style="solid" border-right-width="75" border-left-color="rgb(182,221,238)" border-left-style="solid" border-left-width="75" border-top-color="rgb(182,221,238)" border-top-style="solid" border-top-width="75" border-bottom-color="rgb(120,195,216)" border-bottom-style="solid" border-bottom-width="75"  />
+<style family="background" name="background0" background-color="rgb(204,255,255)" background-style="normal" background-fill-color="3142008" background-fill-style="none"  />
+<style family="background" name="background1" background-color="rgb(255,255,255)" background-style="transparent" background-fill-color="3142060" background-fill-style="none"  />
+<style family="background" name="background2" background-color="rgb(213,241,250)" background-style="normal" background-fill-color="3142008" background-fill-style="none"  />
+<style family="background" name="background3" background-color="rgb(255,255,255)" background-style="transparent" background-fill-color="3142008" background-fill-style="none"  />
+<style family="font" name="font0" font-name="맑은 고딕" font-color="rgb(18,93,125)" font-size="14" font-strike="0" font-underline="0" font-italic="0" font-bold="1" font-wordwrap="1" font-horizontal-align="middle" font-vertical-align="center"  />
+<style family="font" name="font1" font-name="돋움" font-color="rgb(28,36,40)" font-size="10" font-strike="0" font-underline="0" font-italic="0" font-bold="1" font-wordwrap="1" font-horizontal-align="left" font-vertical-align="center"  />
+<style family="font" name="font2" font-name="굴림" font-color="rgb(0,0,0)" font-size="10" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="left" font-vertical-align="top"  />
+<style family="font" name="font3" font-name="돋움" font-color="rgb(18,93,125)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="left" font-vertical-align="center"  />
+<style family="font" name="font4" font-name="돋움" font-color="rgb(28,36,40)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="left" font-vertical-align="center"  />
+<style family="font" name="font5" font-name="돋움" font-color="rgb(18,93,125)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="middle" font-vertical-align="center"  />
+<style family="font" name="font6" font-name="돋움" font-color="rgb(28,36,40)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="middle" font-vertical-align="center"  />
+<style family="font" name="font7" font-name="돋움" font-color="rgb(28,36,40)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="right" font-vertical-align="center"  />
+<style family="font" name="font8" font-name="돋움" font-color="rgb(0,0,0)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="left" font-vertical-align="center"  />
+<style family="font" name="font9" font-name="돋움" font-color="rgb(0,0,0)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="right" font-vertical-align="center"  />
+<style family="image" name="image0" image-source="data" image-data="R0lGODlhCwALAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgICAgMDAwP8AAAD/AP//AAAA//8A/wD//////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMwAAZgAAmQAAzAAA/wAzAAAzMwAzZgAzmQAzzAAz/wBmAABmMwBmZgBmmQBmzABm/wCZAACZMwCZZgCZmQCZzACZ/wDMAADMMwDMZgDMmQDMzADM/wD/AAD/MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMzADMzMzMzZjMzmTMzzDMz/zNmADNmMzNmZjNmmTNmzDNm/zOZADOZMzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/MzP/ZjP/mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz/2ZmAGZmM2ZmZmZmmWZmzGZm/2aZAGaZM2aZZmaZmWaZzGaZ/2bMAGbMM2bMZmbMmWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb//5kAAJkAM5kAZpkAmZkAzJkA/5kzAJkzM5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZAJmZM5mZZpmZmZmZzJmZ/5nMAJnMM5nMZpnMmZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwAM8wAZswAmcwAzMwA/8wzAMwzM8wzZswzmcwzzMwz/8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZM8yZZsyZmcyZzMyZ/8zMAMzMM8zMZszMmczMzMzM/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8Amf8AzP8A//8zAP8zM/8zZv8zmf8zzP8z//9mAP9mM/9mZv9mmf9mzP9m//+ZAP+ZM/+ZZv+Zmf+ZzP+Z///MAP/MM//MZv/Mmf/MzP/M////AP//M///Zv//mf//zP///ywAAAAACwALAAAIKQAfCBxIcCC8gwjhGUyYUGDDhg8YRjzoUCLFiQgxVqQIkSFEjB8LFgwIADs=" image-fill="original" image-align-horizontal="middle" image-align-vertical="center"  />
+<style family="image" name="image1" image-source="data" image-data="R0lGODlhCwALAPcAAAAAAIAAAACAAICAAAAAgIAAgACAgICAgMDAwP8AAAD/AP//AAAA//8A/wD//////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMwAAZgAAmQAAzAAA/wAzAAAzMwAzZgAzmQAzzAAz/wBmAABmMwBmZgBmmQBmzABm/wCZAACZMwCZZgCZmQCZzACZ/wDMAADMMwDMZgDMmQDMzADM/wD/AAD/MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMzADMzMzMzZjMzmTMzzDMz/zNmADNmMzNmZjNmmTNmzDNm/zOZADOZMzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/MzP/ZjP/mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz/2ZmAGZmM2ZmZmZmmWZmzGZm/2aZAGaZM2aZZmaZmWaZzGaZ/2bMAGbMM2bMZmbMmWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb//5kAAJkAM5kAZpkAmZkAzJkA/5kzAJkzM5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZAJmZM5mZZpmZmZmZzJmZ/5nMAJnMM5nMZpnMmZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwAM8wAZswAmcwAzMwA/8wzAMwzM8wzZswzmcwzzMwz/8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZM8yZZsyZmcyZzMyZ/8zMAMzMM8zMZszMmczMzMzM/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8Amf8AzP8A//8zAP8zM/8zZv8zmf8zzP8z//9mAP9mM/9mZv9mmf9mzP9m//+ZAP+ZM/+ZZv+Zmf+ZzP+Z///MAP/MM//MZv/Mmf/MzP/M////AP//M///Zv//mf//zP///ywAAAAACwALAAAIKQAfCBxIcCC8gwjhGUyYUGDDhg8YRjzoUCLFiQgxVqQIkSFEjB8LFgwIADs=" image-fill="original" image-align-horizontal="middle" image-align-vertical="center"  />
+<style family="image" name="image2" image-source="data" image-data="Qk1mAAAAAAAAADYAAAAoAAAABAAAAAQAAAABABgAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////Li40Li40////////Li02Li02////////////////////" image-fill="original" image-align-horizontal="middle" image-align-vertical="center"  />
+<style family="image" name="image3" image-source="data" image-data="Qk1mAAAAAAAAADYAAAAoAAAABAAAAAQAAAABABgAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////Li40Li40////////Li02Li02////////////////////" image-fill="original" image-align-horizontal="middle" image-align-vertical="center"  />
+</styles>
+<fields>
+<field-set field-type="parameter">
+</field-set>
+</fields>
+</global>
+<body dataset-name="DataSet 1">
+<local>
+<fields>
+<field-set field-type="database">
+<field name="조회구분" xpath="../../조회구분"/>
+<field name="업체명" xpath="../../업체명"/>
+<field name="사업자번호" xpath="../../사업자번호"/>
+<field name="조회기준일" xpath="../../조회기준일"/>
+<field name="결제금액T" xpath="../../결제금액T"/>
+<field name="부서명T" xpath="../../부서명T"/>
+<field name="카드번호T" xpath="../../카드번호T"/>
+<field name="STARTROW" xpath="../../STARTROW"/>
+<field name="ENDROW" xpath="../../ENDROW"/>
+<field name="청구년월" xpath="청구년월"/>
+<field name="결제금액" xpath="결제금액"/>
+</field-set>
+<field-set field-type="formula">
+<field name="page"><![CDATA[return "{%PageNofM}" + " page";]]></field>
+<field name="viewFlg"><![CDATA[return {%RecordNumber}%2;]]></field>
+</field-set>
+</fields>
+<conditional-style>
+</conditional-style>
+</local>
+<page page-type="a4" page-width="2100" page-height="2970" page-direction="portrait" page-margin-right="150" page-margin-left="150" page-margin-top="150" page-margin-bottom="150" >
+<section-set section-type="reportheader">
+<section name="보고서머리글1" height="128"
+visible-style="visible0" >
+<control control-type="table" name="표4" x1="90" y1="0" visible-style="visible0" >
+<column width='1620'/>
+<row height='110'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background0" border-style="border0" font-style="font0" ><![CDATA[결제예정금액 전일자조회]]></cell>
+</row>
+</control>
+</section>
+<section name="보고서머리글" height="700"
+visible-style="visible0" >
+<control control-type="textbox" content-type="text" name="글상자1" x1="40" y1="160" width="300" height="50" background-style="background1" border-style="border1" font-style="font1" ><![CDATA[기본정보]]></control>
+<control control-type="textbox" content-type="text" name="그림7" x1="0" y1="170" width="29" height="29" background-style="background1" border-style="border1" font-style="font2" image-style="image0" ><![CDATA[]]></control>
+<control control-type="table" name="표1" x1="0" y1="214" visible-style="visible0" >
+<column width='300'/>
+<column width='600'/>
+<column width='300'/>
+<column width='600'/>
+<row height='70'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border2" font-style="font3" ><![CDATA[조회구분]]></cell>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background3" border-style="border2" font-style="font4" ><![CDATA[database.조회구분]]></cell>
+</row>
+<row height='70'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font3" ><![CDATA[업체명]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font4" ><![CDATA[database.업체명]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font3" ><![CDATA[사업자번호]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font4" ><![CDATA[database.사업자번호]]></cell>
+</row>
+</control>
+<control control-type="table" name="표11" x1="0" y1="512" visible-style="visible0" >
+<column width='400'/>
+<column width='498'/>
+<column width='402'/>
+<column width='500'/>
+<row height='70'>
+<cell content-type="text" rowspan="0" colspan="1" background-style="background2" border-style="border2" font-style="font5" ><![CDATA[업체명]]></cell>
+<cell content-type="text" rowspan="0" colspan="1" background-style="background2" border-style="border2" font-style="font5" ><![CDATA[결제 금액]]></cell>
+</row>
+<row height='70'>
+<cell content-type="field" rowspan="0" colspan="1" background-style="background3" border-style="border3" font-style="font6" ><![CDATA[database.업체명]]></cell>
+<cell content-type="field" rowspan="0" colspan="1" background-style="background3" border-style="border3" font-style="font7" ><![CDATA[database.결제금액T]]></cell>
+</row>
+</control>
+<control control-type="textbox" content-type="text" name="글상자15" x1="50" y1="408" width="300" height="50" background-style="background1" border-style="border1" font-style="font1" ><![CDATA[조회정보]]></control>
+<control control-type="textbox" content-type="text" name="글상자16" x1="50" y1="458" width="300" height="50" background-style="background1" border-style="border1" font-style="font8" ><![CDATA[총 결제예정금액]]></control>
+<control control-type="textbox" content-type="text" name="글상자17" x1="1400" y1="458" width="184" height="50" background-style="background1" border-style="border1" font-style="font8" ><![CDATA[조회기준일 :]]></control>
+<control control-type="textbox" content-type="field" name="필드5" x1="1590" y1="458" width="208" height="50" background-style="background1" border-style="border1" font-style="font9" ><![CDATA[database.조회기준일]]></control>
+<control control-type="textbox" content-type="text" name="그림15" x1="0" y1="416" width="29" height="29" background-style="background1" border-style="border1" font-style="font2" image-style="image1" ><![CDATA[]]></control>
+<control control-type="textbox" content-type="text" name="그림16" x1="2" y1="472" width="20" height="20" background-style="background1" border-style="border1" font-style="font2" image-style="image2" ><![CDATA[]]></control>
+</section>
+</section-set>
+<section-set section-type="pageheader">
+<section name="페이지머리글" height="128"
+visible-style="visible0" >
+<control control-type="table" name="표5" x1="0" y1="58" visible-style="visible0" >
+<column width='899'/>
+<column width='901'/>
+<row height='70'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border2" font-style="font5" ><![CDATA[기간]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border2" font-style="font5" ><![CDATA[결제 금액]]></cell>
+</row>
+</control>
+<control control-type="textbox" content-type="text" name="글상자4" x1="50" y1="0" width="300" height="50" background-style="background1" border-style="border1" font-style="font8" ><![CDATA[기간별 결제예정금액]]></control>
+<control control-type="textbox" content-type="text" name="글상자6" x1="1400" y1="0" width="184" height="50" background-style="background1" border-style="border1" font-style="font8" ><![CDATA[조회기준일 :]]></control>
+<control control-type="textbox" content-type="field" name="필드2" x1="1588" y1="0" width="208" height="50" background-style="background1" border-style="border1" font-style="font9" ><![CDATA[database.조회기준일]]></control>
+<control control-type="textbox" content-type="text" name="그림2" x1="0" y1="12" width="20" height="20" background-style="background1" border-style="border1" font-style="font2" image-style="image3" ><![CDATA[]]></control>
+</section>
+</section-set>
+<section-set section-type="detail">
+<section name="본문" height="70"
+visible-style="visible0" >
+<control control-type="table" name="표6" x1="0" y1="0" visible-style="visible0" >
+<column width='899'/>
+<column width='901'/>
+<row height='70'>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font6" ><![CDATA[database.청구년월]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background3" border-style="border3" font-style="font7" ><![CDATA[database.결제금액]]></cell>
+</row>
+</control>
+</section>
+</section-set>
+<section-set section-type="reportfooter">
+<section name="보고서바닥글" height="50"
+visible-style="visible1" >
+</section>
+</section-set>
+<section-set section-type="pagefooter">
+<section name="페이지바닥글" height="75"
+visible-style="visible0" >
+</section>
+</section-set>
+</page>
+</body></document>

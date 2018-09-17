@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<document type="" version="1.0">
+<global>
+<connections>
+<connection connection-type="xml" name="Connection 1">
+<config-param-list>
+<config-param name="xml-path"><![CDATA[http://localhost:8080/hero/samples/files/sample3.data.xml]]></config-param>
+<config-param name="xsl-path"><![CDATA[]]></config-param>
+</config-param-list>
+<dataset dataset-type="xml" name="DataSet 1"><config-param-list>
+<config-param name="xml-root"><![CDATA[dataset/list/detail]]></config-param>
+</config-param-list>
+<fields>
+<field-set field-type="database">
+<field name="가맹점명" xpath="../../가맹점명"/>
+<field name="지급년월" xpath="../../지급년월"/>
+<field name="가맹점번호" xpath="../../가맹점번호"/>
+<field name="수수료율1" xpath="../../수수료율1"/>
+<field name="수수료율2" xpath="../../수수료율2"/>
+<field name="수수료율3" xpath="../../수수료율3"/>
+<field name="결제계좌" xpath="../../결제계좌"/>
+<field name="대금지급일T" xpath="../../대금지급일T"/>
+<field name="대금지급일" xpath="대금지급일"/>
+<field name="지급건수" xpath="지급건수"/>
+<field name="지급금액" xpath="지급금액"/>
+<field name="수입수수료" xpath="수입수수료"/>
+<field name="기타수수료" xpath="기타수수료"/>
+<field name="보류금액" xpath="보류금액"/>
+<field name="지급금액T_E17" xpath="지급금액T_E17"/>
+<field name="봉사료" xpath="봉사료"/>
+<field name="원천징수세" xpath="원천징수세"/>
+<field name="수수료율4" xpath="../../수수료율4"/>
+</field-set>
+</fields>
+</dataset> 
+</connection>
+</connections>
+<styles>
+<style family="visible" name="visible0" visible="1" />
+<style family="border" name="border0" border-right-color="rgb(0,0,0)" border-right-style="solid" border-right-width="75" border-left-color="rgb(0,0,0)" border-left-style="solid" border-left-width="75" border-top-color="rgb(0,0,0)" border-top-style="solid" border-top-width="75" border-bottom-color="rgb(0,0,0)" border-bottom-style="solid" border-bottom-width="75"  />
+<style family="border" name="border1" border-right-color="rgb(0,0,0)" border-right-style="none" border-right-width="75" border-left-color="rgb(0,0,0)" border-left-style="none" border-left-width="75" border-top-color="rgb(0,0,0)" border-top-style="none" border-top-width="75" border-bottom-color="rgb(0,0,0)" border-bottom-style="none" border-bottom-width="75"  />
+<style family="border" name="border2" border-right-color="rgb(182,221,238)" border-right-style="solid" border-right-width="75" border-left-color="rgb(182,221,238)" border-left-style="solid" border-left-width="75" border-top-color="rgb(120,195,216)" border-top-style="solid" border-top-width="150" border-bottom-color="rgb(182,221,238)" border-bottom-style="solid" border-bottom-width="75"  />
+<style family="border" name="border3" border-right-color="rgb(182,221,238)" border-right-style="solid" border-right-width="75" border-left-color="rgb(182,221,238)" border-left-style="solid" border-left-width="75" border-top-color="rgb(182,221,238)" border-top-style="solid" border-top-width="75" border-bottom-color="rgb(182,221,238)" border-bottom-style="solid" border-bottom-width="75"  />
+<style family="border" name="border4" border-right-color="rgb(182,221,238)" border-right-style="solid" border-right-width="75" border-left-color="rgb(182,221,238)" border-left-style="solid" border-left-width="75" border-top-color="rgb(182,221,238)" border-top-style="solid" border-top-width="75" border-bottom-color="rgb(0,0,0)" border-bottom-style="none" border-bottom-width="75"  />
+<style family="border" name="border5" border-right-color="rgb(182,221,238)" border-right-style="solid" border-right-width="75" border-left-color="rgb(182,221,238)" border-left-style="solid" border-left-width="75" border-top-color="rgb(0,0,0)" border-top-style="none" border-top-width="75" border-bottom-color="rgb(182,221,238)" border-bottom-style="solid" border-bottom-width="75"  />
+<style family="background" name="background0" background-color="rgb(204,255,255)" background-style="normal" background-fill-color="2485888" background-fill-style="none"  />
+<style family="background" name="background1" background-color="rgb(255,255,255)" background-style="transparent" background-fill-color="2485888" background-fill-style="none"  />
+<style family="background" name="background2" background-color="rgb(213,241,250)" background-style="normal" background-fill-color="2485888" background-fill-style="none"  />
+<style family="background" name="background3" background-color="rgb(255,255,255)" background-style="transparent" background-fill-color="2485940" background-fill-style="none"  />
+<style family="font" name="font0" font-name="맑은 고딕" font-color="rgb(18,93,125)" font-size="14" font-strike="0" font-underline="0" font-italic="0" font-bold="1" font-wordwrap="1" font-horizontal-align="middle" font-vertical-align="center"  />
+<style family="font" name="font1" font-name="맑은 고딕" font-color="rgb(28,36,40)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="left" font-vertical-align="top"  />
+<style family="font" name="font2" font-name="맑은 고딕" font-color="rgb(18,93,125)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="left" font-vertical-align="center"  />
+<style family="font" name="font3" font-name="맑은 고딕" font-color="rgb(0,0,0)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="left" font-vertical-align="center"  />
+<style family="font" name="font4" font-name="맑은 고딕" font-color="rgb(18,93,125)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="middle" font-vertical-align="center"  />
+<style family="font" name="font5" font-name="맑은 고딕" font-color="rgb(28,36,40)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="middle" font-vertical-align="center"  />
+<style family="font" name="font6" font-name="맑은 고딕" font-color="rgb(28,36,40)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="right" font-vertical-align="center"  />
+<style family="font" name="font7" font-name="맑은 고딕" font-color="rgb(243,120,0)" font-size="9" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="left" font-vertical-align="top"  />
+<style family="font" name="font8" font-name="나눔고딕" font-color="rgb(0,0,0)" font-size="10" font-strike="0" font-underline="0" font-italic="0" font-bold="0" font-wordwrap="1" font-horizontal-align="left" font-vertical-align="top"  />
+<style family="image" name="image0" image-source="data" image-data="Qk1mAAAAAAAAADYAAAAoAAAABAAAAAQAAAABABgAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////Li40Li40////////Li02Li02////////////////////" image-fill="original" image-align-horizontal="middle" image-align-vertical="center"  />
+</styles>
+<fields>
+<field-set field-type="parameter">
+</field-set>
+</fields>
+</global>
+<body dataset-name="DataSet 1">
+<local>
+<fields>
+<field-set field-type="database">
+<field name="가맹점명" xpath="../../가맹점명"/>
+<field name="지급년월" xpath="../../지급년월"/>
+<field name="가맹점번호" xpath="../../가맹점번호"/>
+<field name="수수료율1" xpath="../../수수료율1"/>
+<field name="수수료율2" xpath="../../수수료율2"/>
+<field name="수수료율3" xpath="../../수수료율3"/>
+<field name="결제계좌" xpath="../../결제계좌"/>
+<field name="대금지급일T" xpath="../../대금지급일T"/>
+<field name="대금지급일" xpath="대금지급일"/>
+<field name="지급건수" xpath="지급건수"/>
+<field name="지급금액" xpath="지급금액"/>
+<field name="수입수수료" xpath="수입수수료"/>
+<field name="기타수수료" xpath="기타수수료"/>
+<field name="보류금액" xpath="보류금액"/>
+<field name="지급금액T_E17" xpath="지급금액T_E17"/>
+<field name="봉사료" xpath="봉사료"/>
+<field name="원천징수세" xpath="원천징수세"/>
+<field name="수수료율4" xpath="../../수수료율4"/>
+</field-set>
+<field-set field-type="formula">
+<field name="page"><![CDATA[return "{%PageNofM}" + " page";]]></field>
+<field name="수수료율1"><![CDATA[return "국내신용:"+"{@수수료율1}"+"% 국내체크:"+"{@수수료율4}"+"% 해외카:드"+"{@수수료율2}"+"% 공동망(타사미가맹):"+"{@수수료율3}"+"%";]]></field>
+<field name="수수료율2"><![CDATA[return "미계약타사(공동망) 수수료율 :" + "{@수수료율3}" + "%";]]></field>
+<field name="대금지급일T"><![CDATA[return  "매출전표 접수 후" + "{@대금지급일T}" + "영업일 후 입금됩니다.";]]></field>
+<field name="viewFlg"><![CDATA[return {%RecordNumber}%2;]]></field>
+</field-set>
+</fields>
+<conditional-style>
+</conditional-style>
+</local>
+<page page-type="a4" page-width="2100" page-height="2970" page-direction="portrait" page-margin-right="150" page-margin-left="150" page-margin-top="150" page-margin-bottom="150" >
+<section-set section-type="reportheader">
+<section name="보고서머리글2" height="130"
+visible-style="visible0" >
+<control control-type="table" name="표4" x1="90" y1="0" visible-style="visible0" >
+<column width='1620'/>
+<row height='130'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background0" border-style="border0" font-style="font0" ><![CDATA[신용판매내역서]]></cell>
+</row>
+</control>
+</section>
+<section name="보고서머리글" height="430"
+visible-style="visible0" >
+<control control-type="table" name="표3" x1="0" y1="0" visible-style="visible0" >
+<column width='1800'/>
+<row height='75'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background1" border-style="border1" font-style="font1" ><![CDATA[당사에 접수하신 매출전표 금액에 대하여 아래와 같이 해당 지급일에 귀사 결제계좌에 입금하였음을 알려드립니다.]]></cell>
+</row>
+</control>
+<control control-type="table" name="표10" x1="0" y1="80" visible-style="visible0" >
+<column width='250'/>
+<column width='650'/>
+<column width='250'/>
+<column width='650'/>
+<row height='70'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border2" font-style="font2" ><![CDATA[가맹점명]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background1" border-style="border2" font-style="font3" ><![CDATA[database.가맹점명]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border2" font-style="font2" ><![CDATA[가맹점번호]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background1" border-style="border2" font-style="font3" ><![CDATA[database.가맹점번호]]></cell>
+</row>
+<row height='70'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font2" ><![CDATA[결제계좌]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background1" border-style="border3" font-style="font3" ><![CDATA[database.결제계좌]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font2" ><![CDATA[지급년월]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background1" border-style="border3" font-style="font3" ><![CDATA[database.지급년월]]></cell>
+</row>
+<row height='70'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font2" ><![CDATA[수수료율]]></cell>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background1" border-style="border3" font-style="font3" ><![CDATA[formula.수수료율1]]></cell>
+</row>
+<row height='70'>
+<cell content-type="text" rowspan="1" colspan="0" background-style="background2" border-style="border3" font-style="font2" ><![CDATA[지급주기]]></cell>
+<cell content-type="field" rowspan="0" colspan="2" background-style="background1" border-style="border4" font-style="font3" ><![CDATA[formula.대금지급일T]]></cell>
+</row>
+<row height='70'>
+<cell content-type="text" rowspan="0" colspan="2" background-style="background1" border-style="border5" font-style="font3" ><![CDATA[#결제계좌의 대금지급 방식에 따라 1영업일이 추가 소요될 수 있습니다.]]></cell>
+</row>
+</control>
+</section>
+</section-set>
+<section-set section-type="pageheader">
+<section name="페이지머리글" height="140"
+visible-style="visible0" >
+<control control-type="table" name="표1" x1="0" y1="0" visible-style="visible0" >
+<column width='201'/>
+<column width='149'/>
+<column width='250'/>
+<column width='200'/>
+<column width='150'/>
+<column width='200'/>
+<column width='200'/>
+<column width='300'/>
+<column width='150'/>
+<row height='70'>
+<cell content-type="text" rowspan="1" colspan="0" background-style="background2" border-style="border2" font-style="font4" ><![CDATA[지급일자]]></cell>
+<cell content-type="text" rowspan="0" colspan="1" background-style="background2" border-style="border2" font-style="font4" ><![CDATA[지급대상금액(매출금액)]]></cell>
+<cell content-type="text" rowspan="0" colspan="1" background-style="background2" border-style="border2" font-style="font4" ><![CDATA[수수료]]></cell>
+<cell content-type="text" rowspan="1" colspan="0" background-style="background2" border-style="border2" font-style="font4" ><![CDATA[원천징수세]]></cell>
+<cell content-type="text" rowspan="1" colspan="0" background-style="background2" border-style="border2" font-style="font4" ><![CDATA[지급보류액
+(D)]]></cell>
+<cell content-type="text" rowspan="1" colspan="0" background-style="background2" border-style="border2" font-style="font4" ><![CDATA[입금액
+(A-B-C-D)]]></cell>
+<cell content-type="text" rowspan="1" colspan="0" background-style="background2" border-style="border2" font-style="font4" ><![CDATA[봉사료]]></cell>
+</row>
+<row height='70'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font4" ><![CDATA[건수]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font4" ><![CDATA[금액(A)]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font4" ><![CDATA[가맹점(B)]]></cell>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background2" border-style="border3" font-style="font4" ><![CDATA[기타(C)]]></cell>
+</row>
+</control>
+</section>
+</section-set>
+<section-set section-type="detail">
+<section name="본문" height="70"
+visible-style="visible0" >
+<control control-type="table" name="표2" x1="0" y1="0" visible-style="visible0" >
+<column width='201'/>
+<column width='149'/>
+<column width='250'/>
+<column width='200'/>
+<column width='150'/>
+<column width='200'/>
+<column width='200'/>
+<column width='300'/>
+<column width='150'/>
+<row height='70'>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background1" border-style="border3" font-style="font5" ><![CDATA[database.대금지급일]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background1" border-style="border3" font-style="font5" ><![CDATA[database.지급건수]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background1" border-style="border3" font-style="font6" ><![CDATA[database.지급금액]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background1" border-style="border3" font-style="font6" ><![CDATA[database.수입수수료]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background1" border-style="border3" font-style="font6" ><![CDATA[database.기타수수료]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background1" border-style="border3" font-style="font6" ><![CDATA[database.원천징수세]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background1" border-style="border3" font-style="font6" ><![CDATA[database.보류금액]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background1" border-style="border3" font-style="font6" ><![CDATA[database.지급금액T_E17]]></cell>
+<cell content-type="field" rowspan="0" colspan="0" background-style="background1" border-style="border3" font-style="font6" ><![CDATA[database.봉사료]]></cell>
+</row>
+</control>
+</section>
+</section-set>
+<section-set section-type="reportfooter">
+<section name="보고서바닥글" height="254"
+visible-style="visible0" >
+<control control-type="table" name="표7" x1="40" y1="122" visible-style="visible0" >
+<column width='1757'/>
+<row height='106'>
+<cell content-type="text" rowspan="0" colspan="0" background-style="background1" border-style="border1" font-style="font7" ><![CDATA[도난, 분실카드 부정사용으로 인한 피해가 발생될 수 있사오니 각별한 주의가 필요합니다.
+신용판매시 반드시 본인확인 (카드뒷면의 서명확인, 신분증 확인 등)을 철저히 하여 피해를 입지 않도록 주의 하시기 바랍니다.]]></cell>
+</row>
+</control>
+<control control-type="textbox" content-type="text" name="그림9" x1="0" y1="128" width="20" height="20" background-style="background3" border-style="border1" font-style="font8" image-style="image0" ><![CDATA[]]></control>
+</section>
+</section-set>
+<section-set section-type="pagefooter">
+<section name="페이지바닥글" height="69"
+visible-style="visible0" >
+</section>
+</section-set>
+</page>
+</body></document>

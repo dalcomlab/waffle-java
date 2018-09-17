@@ -1,0 +1,107 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>Hero Sample Page</title>
+<script>
+	var view;
+	var timer;
+	
+	 function init(){
+		var iframe = document.getElementsByTagName("iframe")[0];	
+		var html = iframe.contentWindow;		
+		view = new html.createView();		
+	 }
+	 
+	 function timeCheck(){
+		 if(view.isLoaded() == true) {			 
+			 	setPage();
+				clearInterval(timer);
+		}
+	 }
+	
+	function preview(filename){
+		timer = setInterval(timeCheck,500);
+		var fullfilepath = "http://" + location.host + "/hero/samples/files/" + filename + ".xml";
+		view.setPath("http://" + location.host + "/hero/hero/server/hero.server.jsp?file=" + fullfilepath);
+		alert("http://" + location.host + "/hero/hero/server/hero.server.jsp?file=" + fullfilepath);
+		view.run();
+		updatePageAndZoom();
+	}
+	
+	function moveFirstPage(){
+		view.moveFirstPage();
+		updatePageAndZoom();
+	}
+	
+	function movePrevPage(){
+		view.movePrevPage();
+		updatePageAndZoom();
+	}
+	
+	function moveNextPage(){
+		view.moveNextPage();
+		updatePageAndZoom();
+	}
+	
+	function moveLastPage(){
+		view.moveLastPage();
+		updatePageAndZoom();
+	}
+	
+	function zoom100(){
+		view.zoomOriginal();
+		updatePageAndZoom();
+		
+	}
+	function zoomIn(){
+		view.zoomIn();
+		updatePageAndZoom();
+		
+	}
+	function zoomOut(){
+		view.zoomOut();
+		updatePageAndZoom();
+		
+	}
+	function print(){
+		view.print();
+	}
+	
+	function updatePageAndZoom(){
+		document.getElementById("PageValue").value = view.getCurrentPage();
+		document.getElementById("TotalPageValue").value = view.getTotalPage();
+		document.getElementById("Zoom").value = view.getPageRatio();
+	}
+
+</script>
+
+</head>
+<body onLoad="init()" >
+<div id="title1" style="height: 45px; background: white; width:100%" >
+	<center>
+		<table>
+			<tr>
+				<td><input type="image"  src="image/preview.png"  style="width:40px;height:40px"onclick='preview("sample1")' /> </td>
+				<td><input type="image"  src="image/preview.png"  style="width:40px;height:40px"onclick='preview("sample2")' /> </td>
+				<td><input type="image"  src="image/preview.png"  style="width:40px;height:40px"onclick='preview("sample3")' /> </td>
+
+				<td  style="width:300px"></td>
+				<td><input type="image"  src="image/first.png"  style="width:40px;height:40px"onclick='moveFirstPage()' /> </td>
+				<td><input type="image"  src="image/prev.png" value="이전페이지" style="width:40px;height:40px" onclick='movePrevPage()' /> </td>
+				<td><input type="text" id="PageValue" value="1"  style="width:40px"/></td>
+				<td><input type="text" id="TotalPageValue"  readonly="readonly" style="width:40px"/></td>					
+				<td><input type="image" src="image/next.png" value="다음페이지" style="width:40px;height:40px" onclick='moveNextPage()' /></td> 
+				<td><input type="image" src="image/last.png" value="마지막페이지" style="width:40px;height:40px"  onclick='moveLastPage()' /></td> 
+				<td><input type="text" id="Zoom" value="100%" readonly="readonly" style="width:40px" /></td>
+				<td><input type="image" src="image/zoomorg.png" value="100%" style="width:40px;height:40px"  onclick='zoom100()'  /></td>				
+				<td><input type="image" src="image/zoomin.png" value="확대" style="width:40px;height:40px"  onclick='zoomIn()'  /></td> 
+				<td><input type="image" src="image/zoomout.png" value="축소" style="width:40px;height:40px"  onclick='zoomOut()'/></td>
+				<td><input type="image" src="image/print.png" value="출력" style="width:40px;height:40px"  onclick='print()' /></td>	
+			</tr>
+		</table>
+	</center>
+</div>
+<br>
+<iframe src="../hero/client/hero.viewer.html" width="100%" height="600"></iframe>
+</body>
+</html>
